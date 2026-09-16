@@ -10,6 +10,20 @@ Anthropic, and a local Ollama model and comparing their responses.
 - React/Vite frontend for comparing model responses
 - Ollama support for running models locally
 
+## Frontend Preview
+
+The frontend provides one shared prompt box and displays the responses from
+each provider in separate panels. It also records which provider responded
+first, making it easier to compare response time and output quality.
+
+### Desktop view
+
+![LLM comparison frontend - desktop](docs/screenshots/frontend-empty-state.png)
+
+### Responsive mobile view
+
+![LLM comparison frontend - mobile](docs/screenshots/frontend-mobile.png)
+
 ## Technology
 
 - Java 21
