@@ -3,6 +3,13 @@
 A Spring Boot and React application for sending the same prompt to OpenAI,
 Anthropic, and a local Ollama model and comparing their responses.
 
+## About
+
+This project demonstrates how Spring AI can connect one application to
+multiple language-model providers. Enter a single prompt in the React
+interface and compare the generated responses from OpenAI, Anthropic, and
+Ollama side by side, including which provider responds first.
+
 ## Features
 
 - Spring AI integrations for OpenAI, Anthropic, and Ollama
